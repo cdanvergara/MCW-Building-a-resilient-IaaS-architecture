@@ -3,13 +3,13 @@
     "contentVersion": "1.0.0.0",
     "parameters": {
         "skuSizeVM": {
-            "defaultValue": "D2s_v3",
+            "defaultValue": "D2as_v4",
             "type": "string",
             "metadata": {
                 "description": "Size of Virtual Machines to use"
             },
             "allowedValues": [
-                "D2s_v3",
+                "D2as_v4",
                 "D2s_v5",
                 "DC2s_v3"
             ]
@@ -37,7 +37,7 @@
         },
         "existingDNSServer": {
             "type": "string",
-            "defaultValue": "10.0.3.100",
+            "defaultValue": "10.100.3.100",
             "metadata": {
                 "description": "Existing DNS server in Virtual Network"
             }
@@ -81,7 +81,7 @@
                         "value": "[parameters('resourceFolder')]"
                     },
                     "ADVMName": {
-                        "value": "ADVM2"
+                        "value": "EXP-USSC-DC2"
                     },
                     "AvailabilityZone": {
                         "value": "2"
@@ -181,7 +181,7 @@
                         "value": "[parameters('resourceFolder')]"
                     },
                     "WebVMName": {
-                        "value": "WebVM2"
+                        "value": "EXP-USSC-WEB2"
                     },
                     "AvailabilityZone": {
                         "value": "2"
@@ -230,7 +230,7 @@
                         "value": "[parameters('resourceFolder')]"
                     },
                     "SqlVMName": {
-                        "value": "SQLVM2"
+                        "value": "EXP-USSC-SQL2"
                     },
                     "AvailabilityZone": {
                         "value": "2"
