@@ -90,7 +90,7 @@
                         "value": "[variables('ADSubnetId')]"
                     },
                     "ADVMPrivateIPAddress": {
-                        "value": "10.0.3.101"
+                        "value": "10.100.3.101"
                     },
                     "adminUserName": {
                         "value": "[parameters('adminUserName')]"
@@ -127,7 +127,7 @@
                         "value": "[variables('DataSubnetId')]"
                     },
                     "SQLLBPrivateIPAddress": {
-                        "value": "10.0.2.100"
+                        "value": "10.100.2.100"
                     }
                 }
             }
