@@ -28,8 +28,8 @@
     }
   },
   "variables": {
-    "InternalLoadBalancerName": "[concat('ContosoSQLLB', parameters('Environment'))]",
-    "ExternalLoadBalancerName": "[concat('ContosoWebLB', parameters('Environment'))]",
+    "InternalLoadBalancerName": "[concat('EXP-USSC-SQLLB', parameters('Environment'))]",
+    "ExternalLoadBalancerName": "[concat('EXP-USSC-WEBLB', parameters('Environment'))]",
     "FrontEndName": "FrontEnd1",
     "RuleName": "Rule1",
     "BackEndPoolName": "BackEndPool1",
